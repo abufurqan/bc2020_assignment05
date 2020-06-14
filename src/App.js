@@ -1,16 +1,16 @@
 import React,{useState} from 'react';
 import './App.css';
 import Parent from './Parent';
-import CounterContext from './CounterContext';
+import ContentCreate from './ContentCreate';
 const App =() => {
     let countState =  useState(1);
     // let [count, setCount] = useState(30);
     return (
-        <CounterContext.Provider value= {countState}> 
+        <ContentCreate.Provider value= {countState}> 
         <div>
             <Parent/>
         </div>
-        </CounterContext.Provider>
+        </ContentCreate.Provider>
     );
 } 
  export default App;
