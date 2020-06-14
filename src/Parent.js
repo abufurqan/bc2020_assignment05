@@ -1,5 +1,5 @@
 import React from 'react'
-import Child from './child.js'
+import Child from './Child.js'
 import Child2 from './Child2.js'
 
 const Parent = ()=> {
